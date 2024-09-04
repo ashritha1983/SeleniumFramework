@@ -1,0 +1,5 @@
+Test Case Name,Execution Time (ms)
+addToCartTest,4369
+checkoutTest,683
+countrySelectionTest,10211
+testConfirmationMessage,3

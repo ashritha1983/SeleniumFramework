@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utils.Reports"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Ashritha/Desktop/Framework/Framework/src/test/java/tests/Tests1.java">
+        <classes>
+            <class name="tests.Tests1">
+                <methods>
+                    <include name="addToCartTest"/>
+                    <include name="checkoutTest"/>
+                    <include name="countrySelectionTest"/>
+                    <include name="testConfirmationMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
